@@ -1,5 +1,6 @@
 #lang slideshow
 
-(circle 10)
-(rectangle 100 20)
-(hc-append (circle 10) (rectangle 10 20))
+(define cir (circle 10))
+(define rec (rectangle 20 20))
+(hc-append cir rec)
+(hc-append 20 cir rec cir)
