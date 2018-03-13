@@ -1,7 +1,7 @@
 #lang slideshow
 
-(define (four p)
-  (define two-p (hc-append p p))
+(define (four p r)
+  (define two-p (hc-append p r))
   (vc-append two-p two-p))
 
-(four (circle 10))
+(four (circle 10)(circle 20))
