@@ -1,12 +1,7 @@
 #lang slideshow
 
-(define cir (circle 10))
-(define rec (rectangle 20 20))
-(hc-append cir rec)
-(hc-append 20 cir rec cir)
+(define (four p)
+  (define two-p (hc-append p p))
+  (vc-append two-p two-p))
 
-(define (square n)
-  (filled-rectangle 20 20)
-  )
-
-(square 10)
+(four (circle 10))
