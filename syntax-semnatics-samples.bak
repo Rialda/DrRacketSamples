@@ -1,0 +1,11 @@
+#lang racket
+
+; simple function for area of a square
+(define (square n)
+  (* n n))
+
+; boolean
+
+(zero? 1)
+(zero? (sub1 1)) ; sub1 substracts 1, in this case result is 1-1 = 0
+
