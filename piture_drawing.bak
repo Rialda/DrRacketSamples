@@ -1,0 +1,10 @@
+#lang slideshow
+
+; adding a circle of r=10
+(circle 10)
+
+; drawing a recktangle of w=100 and h=20
+(rectangle 100 20)
+
+; appending the circle to the recktangle
+(hc-append (circle 10) (rectangle 10 20))
