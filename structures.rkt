@@ -39,6 +39,7 @@
 (list (person-x p1) (person-y p1))
 (list (person-x p2) (person-y p2))
 
+
 #|| Structures are by default opaque, that is - an instance
  of a structure type prints in a way that does not show any
 information about the field's values. OPAQUE (by default) provides
